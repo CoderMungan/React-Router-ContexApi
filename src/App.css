@@ -1,0 +1,40 @@
+nav {
+
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+}
+
+
+
+nav a {
+
+  color: inherit;
+}
+
+
+nav a.active {
+  text-decoration: none;
+}
+nav a.active::before {
+
+  content: "> ";
+  color: red;
+
+}
+
+
+nav ul {
+
+  display: flex;
+  min-height: 60px;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav ul li {
+
+  padding: 1rem;
+}
